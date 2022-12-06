@@ -43,7 +43,7 @@ body{
 
 .bigtext{
     color:var(--red-text);
-    font-size:2rem;
+    font-size:3rem;
     font-family: libel;
     font-weight: bold;
 }
@@ -58,6 +58,7 @@ body{
 }
 
 .box{
+    font-weight: bold;
     font-size:0.9rem;
     cursor: pointer;
     text-align: center;
@@ -77,10 +78,12 @@ body{
 
 @media screen and (max-width: 768px){
      .welcome{
-        margin:2rem;
+        
+        margin:1rem;
      } 
      .bigtext{
         width:15rem;
+        
      }
 
      .box{
