@@ -58,6 +58,9 @@ body{
 }
 
 .box{
+    height:1.3rem;
+    display:flex;
+    align-items: center;
     font-weight: bold;
     font-size:0.9rem;
     cursor: pointer;
@@ -83,6 +86,7 @@ body{
      } 
      .bigtext{
         width:15rem;
+        font-size:3rem;
         
      }
 
